@@ -2,7 +2,7 @@ $("#addTodo").click(function() {
     const inputTodo = $("#todoInput").val();
     $("#todolist").append("<li><input type='checkbox'>" + inputTodo + "</li>");
 
-    $("#todoInput").val(""); // Clear the input field after adding the todo
+    $("#todoInput").val(""); // タスク追加後は入力フィールドをクリア
 });
 
 
